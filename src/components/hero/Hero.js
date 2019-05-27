@@ -8,17 +8,17 @@ import SocialRow from "../SocialRow/SocialRow"
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
-      <h1>Hey, I'm a Software developer from Gitland, living in ACME City.</h1>
+      <h1>Austen Wood</h1>
       <br />
       <h3>
-        Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
-        design and hack noice websites together on the internet.
+        I am a Computer Science major at California State University, Chico. My
+        passion is software enginerring and machine learning.
       </h3>
-      <p>Have a project you'd like to discuss?</p>
+      <p>Have something you'd like to discuss?</p>
       <p>
         Let's chat{" "}
-        <a href="mailto:john.doe@gmail.com">
-          <span style={{ color: "blueviolet" }}>john.doe@gmail.com</span>
+        <a href="mailto:hi@austenwood.me">
+          <span style={{ color: "blueviolet" }}>hi@austenwood.me</span>
         </a>
       </p>
     </div>

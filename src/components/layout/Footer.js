@@ -11,16 +11,12 @@ const Footer = () => (
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>John Doe</h3>
-          <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
-            {/*TODO: ADD A MAILTO-LINK */}
-            john.doe@gmail.com
-          </p>
-          <br />
-          <p style={{ fontSize: "1.3rem" }}>
-            I'm a great developer that loves to code. I can help you grow your
-            next product.
-          </p>
+          <h3>Austen Wood</h3>
+          <a href="mailto:hi@austenwood.me">
+            <span style={{ color: "blueviolet", fontSize: "1.3rem" }}>
+              hi@austenwood.me
+            </span>
+          </a>
         </Col>
       </Row>
       <Row>
@@ -58,7 +54,7 @@ const Footer = () => (
       <Row className="footer_social text-center">
         <Col>
           <a
-            href="https://www.github.com/"
+            href="https://github.com/austenwood"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,7 +63,7 @@ const Footer = () => (
         </Col>
         <Col>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/austen-wood/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -112,7 +108,7 @@ const Footer = () => (
       </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
         <Col>
-          John Doe © {new Date().getFullYear()}, Built with
+          Austen Wood © {new Date().getFullYear()}, Built with
           <i
             className="fas fa-mug-hot"
             style={{

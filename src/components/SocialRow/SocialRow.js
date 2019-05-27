@@ -8,7 +8,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/"
+        href="https://github.com/austenwood"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -18,7 +18,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/austen-wood/"
         target="_blank"
         rel="noopener noreferrer"
       >
